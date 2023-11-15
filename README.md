@@ -75,3 +75,11 @@ Contributions are welcome! Please read our Contributing Guide for details on our
 License
 This project is licensed under the MIT License.
 
+
+### Upload to pypi
+
+```
+python setup.py sdist bdist_wheel
+twine upload dist/* --verbose
+```
+
