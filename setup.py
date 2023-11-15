@@ -2,13 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='pypi_multi_versions',
-    version='0.2.0',
+    version='0.3.0',
     author='sam-iau',
     author_email='shop2local@gmail.com',
     description='Manage multiple versions of PyPI packages',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/pypi_multi_versions',
+    url='https://github.com/frier-sam/pypi_multi_versions',
     packages=find_packages(),
     install_requires=[
         # Add any dependencies your package might have
